@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
   "title": "Tower Wizard x Magic Archery: Arcane Bow Defense",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "loader": "godot-mod-loader",
   "components": [
     {
       "fileName": "src/turret_crafting_system.gd",
