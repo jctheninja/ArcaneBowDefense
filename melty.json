@@ -5,23 +5,28 @@
   "components": [
     {
       "fileName": "src/turret_crafting_system.gd",
-      "destination": "{game}/mods/ArcaneBowDefense/turret_crafting_system.gd"
+      "destination": "{game}/mods/ArcaneBowDefense/turret_crafting_system.gd",
+      "mode": "installed"
     },
     {
       "fileName": "src/magic_archery_controller.gd",
-      "destination": "{game}/mods/ArcaneBowDefense/magic_archery_controller.gd"
+      "destination": "{game}/mods/ArcaneBowDefense/magic_archery_controller.gd",
+      "mode": "installed"
     },
     {
       "fileName": "data/turrets.json",
-      "destination": "{game}/mods/ArcaneBowDefense/data/turrets.json"
+      "destination": "{game}/mods/ArcaneBowDefense/data/turrets.json",
+      "mode": "installed"
     },
     {
       "fileName": "data/weapons.json",
-      "destination": "{game}/mods/ArcaneBowDefense/data/weapons.json"
+      "destination": "{game}/mods/ArcaneBowDefense/data/weapons.json",
+      "mode": "installed"
     },
     {
       "fileName": "data/waves.json",
-      "destination": "{game}/mods/ArcaneBowDefense/data/waves.json"
+      "destination": "{game}/mods/ArcaneBowDefense/data/waves.json",
+      "mode": "installed"
     }
   ]
 }
