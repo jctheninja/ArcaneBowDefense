@@ -1,0 +1,16 @@
+extends Node3D
+
+var current_draw_time: float = 0.0
+const MAX_DRAW_TIME: float = 1.2
+const BASE_VELOCITY: float = 35.0
+
+func _process(delta: float) -> void:
+    if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
+        current_draw_time = clamp(current_draw_time + delta, 0.0, MAX_DRAW_TIME)
+    elif current_draw_time > 0.0:
+        fire_arrow()
+        current_draw_time = 0.0
+
+func fire_arrow() -> void:
+    var charge_ratio = current_draw_time / MAX_DRAW_TIME
+    var launch_speed = BASE_VELOCITY * (1.0 + charge_ratio * 1.5)

@@ -1,0 +1,23 @@
+[
+  {
+    "hook_id": "hook_camera_aim",
+    "host_event": "OnCameraUpdate",
+    "source_system": "Magic Archery",
+    "action": "SyncBowAimToCrosshair",
+    "active_state": "IN_GAME"
+  },
+  {
+    "hook_id": "hook_battlement_interact",
+    "host_event": "OnNodeClicked",
+    "source_system": "Tower Wizard",
+    "action": "OpenTurretCraftMenu",
+    "active_state": "PRE_WAVE_AND_COMBAT"
+  },
+  {
+    "hook_id": "hook_enemy_hit",
+    "host_event": "OnProjectileImpact",
+    "source_system": "Shared",
+    "action": "ApplyElementalStatusAndAwardMana",
+    "active_state": "IN_GAME"
+  }
+]

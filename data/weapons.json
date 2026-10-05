@@ -1,0 +1,31 @@
+[
+  {
+    "id": "bow_spellweave",
+    "name": "Spellweave Longbow",
+    "draw_time_sec": 1.2,
+    "base_damage": 45,
+    "max_charge_multiplier": 2.5,
+    "arrow_velocity": 35.0,
+    "gravity_scale": 0.8,
+    "ammo_type": "INFINITE",
+    "prefab_key": "Prefabs/Weapons/SpellweaveBow"
+  },
+  {
+    "id": "arrow_charged_fire",
+    "name": "Ignite Arrow",
+    "element": "FIRE",
+    "aoe_radius": 4.5,
+    "splash_damage": 35,
+    "status_effect": "BURN_5SEC",
+    "prefab_key": "Prefabs/Projectiles/FireArrow"
+  },
+  {
+    "id": "arrow_charged_ice",
+    "name": "Glacial Arrow",
+    "element": "ICE",
+    "aoe_radius": 3.0,
+    "splash_damage": 20,
+    "status_effect": "FREEZE_3SEC",
+    "prefab_key": "Prefabs/Projectiles/IceArrow"
+  }
+]

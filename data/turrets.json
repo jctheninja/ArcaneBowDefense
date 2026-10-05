@@ -1,0 +1,35 @@
+[
+  {
+    "id": "turret_basic",
+    "name": "Arcane Sentry",
+    "mana_cost": 50,
+    "fire_rate_sec": 1.0,
+    "range_units": 15.0,
+    "damage": 25,
+    "element": "PHYSICAL",
+    "target_priority": "CLOSEST",
+    "prefab_key": "Prefabs/Turrets/ArcaneSentry"
+  },
+  {
+    "id": "turret_fire",
+    "name": "Pyre Mortar",
+    "mana_cost": 100,
+    "fire_rate_sec": 2.2,
+    "range_units": 18.0,
+    "damage": 60,
+    "element": "FIRE",
+    "target_priority": "HIGHEST_HP",
+    "prefab_key": "Prefabs/Turrets/PyreMortar"
+  },
+  {
+    "id": "turret_freeze",
+    "name": "Frost Obelisk",
+    "mana_cost": 120,
+    "fire_rate_sec": 1.5,
+    "range_units": 12.0,
+    "damage": 30,
+    "element": "ICE",
+    "target_priority": "FASTEST",
+    "prefab_key": "Prefabs/Turrets/FrostObelisk"
+  }
+]

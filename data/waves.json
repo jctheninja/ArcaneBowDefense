@@ -1,0 +1,52 @@
+[
+  {
+    "wave_id": 1,
+    "wave_name": "Scout Vanguard",
+    "enemy_count": 8,
+    "spawn_interval_sec": 2.5,
+    "base_hp": 80,
+    "speed": 3.5,
+    "mana_reward_per_kill": 15,
+    "completion_bonus_mana": 50
+  },
+  {
+    "wave_id": 2,
+    "wave_name": "Armored Skirmishers",
+    "enemy_count": 12,
+    "spawn_interval_sec": 2.0,
+    "base_hp": 140,
+    "speed": 3.0,
+    "mana_reward_per_kill": 20,
+    "completion_bonus_mana": 75
+  },
+  {
+    "wave_id": 3,
+    "wave_name": "Elemental Rush",
+    "enemy_count": 18,
+    "spawn_interval_sec": 1.5,
+    "base_hp": 180,
+    "speed": 4.2,
+    "mana_reward_per_kill": 25,
+    "completion_bonus_mana": 100
+  },
+  {
+    "wave_id": 4,
+    "wave_name": "Siege Brutes",
+    "enemy_count": 10,
+    "spawn_interval_sec": 3.0,
+    "base_hp": 450,
+    "speed": 2.0,
+    "mana_reward_per_kill": 45,
+    "completion_bonus_mana": 150
+  },
+  {
+    "wave_id": 5,
+    "wave_name": "Overlord Assault",
+    "enemy_count": 25,
+    "spawn_interval_sec": 1.0,
+    "base_hp": 300,
+    "speed": 3.2,
+    "mana_reward_per_kill": 35,
+    "completion_bonus_mana": 250
+  }
+]

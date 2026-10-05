@@ -1,0 +1,31 @@
+{
+  "$schema": "https://melty.gg/schemas/recipe.v1.json",
+  "title": "Tower Wizard x Magic Archery: Arcane Bow Defense",
+  "version": "1.0.0",
+  "targetGame": "Tower Wizard",
+  "engine": "Godot",
+  "loader": "GodotModLoader",
+  "components": [
+    {
+      "fileName": "src/turret_crafting_system.gd",
+      "destination": "{game}/mods/ArcaneBowDefense/turret_crafting_system.gd"
+    },
+    {
+      "fileName": "src/magic_archery_controller.gd",
+      "destination": "{game}/mods/ArcaneBowDefense/magic_archery_controller.gd"
+    },
+    {
+      "fileName": "data/turrets.json",
+      "destination": "{game}/mods/ArcaneBowDefense/data/turrets.json"
+    },
+    {
+      "fileName": "data/weapons.json",
+      "destination": "{game}/mods/ArcaneBowDefense/data/weapons.json"
+    },
+    {
+      "fileName": "data/waves.json",
+      "destination": "{game}/mods/ArcaneBowDefense/data/waves.json"
+    }
+  ],
+  "oneClickPlayable": true
+}
